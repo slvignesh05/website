@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://slvignesh05.github.io/my-blog/'
 languageCode = 'en-us'
 title = 'My Blog'
 theme = 'paper'
@@ -7,6 +7,5 @@ theme = 'paper'
   color = 'linen'
   name = 'Your Name'
   bio = 'Cybersecurity Enthusiast'
-  github = 'yourgithub'
+  github = 'slvignesh05'
   rss = true
-
