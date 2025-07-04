@@ -27,12 +27,12 @@ Yes this is known as cross site scripting. The attacker scripts the code from th
 
 Consider you go to a website called example.com and you find a search box in it.
 
-You search for a simple query python in it.
+You search for a simple query "python'"
 
-After that the url sent to the server to retrieve results would be like:  
+After that the url sent to the server to retrieve the results would be like:  
 `example.com/search?q="python"`
 
-But what attacker do to invoke xss here is input malicious javascript code such as:
+But what attackers do here to invoke xss is input 'malicious javascript' code such as:
 
 ```html
 <script>alert("xss")</script>
@@ -41,14 +41,14 @@ But what attacker do to invoke xss here is input malicious javascript code such 
 
 ```
 
-These malicious payloads gets embedded in the source code of the website and executes on the victim’s browser to exfilterate sensitive information of the victim.
+These malicious payloads gets embedded in the source code of the website and executes on the victim’s browser to exfiltrate sensitive information from them..
 
 Biggest Query ( What most people asked me)
 An Attacker performs xss on the victim? But what can he truly achieve?
 
 A popup alert box on the victim’s browser can do no harm.
 
-The above question can be answered as “severe” or “low” impact of the victim’s.
+The above question can be answered as “severe” or “low” impact issue for the victim.
 
 The primary objective of XSS is to get the session cookies.
 
