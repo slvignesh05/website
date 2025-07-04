@@ -36,3 +36,22 @@ But what attacker do to invoke xss here is input malicious javascript code such 
 
 ```html
 <script>alert("xss")</script>
+
+<img src=0 onerror=alert("xss")>
+
+```
+
+These malicious payloads gets embedded in the source code of the website and executes on the victim’s browser to exfilterate sensitive information of the victim.
+
+Biggest Query ( What most people asked me)
+An Attacker performs xss on the victim? But what can he truly achieve?
+
+A popup alert box on the victim’s browser can do no harm.
+
+The above question can be answered as “severe” or “low” impact of the victim’s.
+
+The primary objective of XSS is to get the session cookies.
+
+The session cookies can be used by the attackers to impersonate the victims
+
+Can't understand the above? (the second post would answer this)
