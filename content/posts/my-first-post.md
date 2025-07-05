@@ -54,4 +54,21 @@ The primary objective of XSS is to get the session cookies.
 
 The session cookies can be used by the attackers to impersonate the victims
 
-Can't understand the above? (the second post would answer this)
+Can't understand the above? 
+
+Cookies (often known as internet cookies) are text files with small pieces of data — like a username and password — that are used to identify your computer as you use a network. Specific cookies are used to identify specific users and improve their web browsing experience. Data stored in a cookie is created by the server upon your connection. This data is labeled with an ID unique to you and your computer. When the cookie is exchanged between your computer and the network server, the server reads the ID and knows what information to specifically serve you. [https://www.kaspersky.com/resource-center/definitions/cookies](https://www.kaspersky.com/resource-center/definitions/cookies)
+
+in simple terms "They streamline the login information, so users don't have to remember site passwords." (This is why sometimes when you login to a website you're automatically logged in without authentication)
+
+So attackers getting hands on these "cookies" will allow them to impersonate victims
+
+But how?
+
+every website stores session and other cookie stuff in the browser which you can view by inspecting the page(CTRL+Shift+I) and going to the 'application` tab
+
+[The tab](https://raw.githubusercontent.com/slvignesh05/website/refs/heads/main/content/posts/images/Screenshot%202025-07-05%20235221.png)
+
+Here the attacker can place the victim's cookie(stole from xss) in place of his to succesfully take over the account or to access sensitive information of the victim.
+
+Note: <script>alert(document.cookie)</script> will popup the victim's cookie , The attacker can modify the payload further to send this cookie to their server.
+
