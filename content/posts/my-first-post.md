@@ -66,7 +66,7 @@ But how?
 
 every website stores session and other cookie stuff in the browser which you can view by inspecting the page(CTRL+Shift+I) and going to the 'application` tab
 
-[The tab](https://raw.githubusercontent.com/slvignesh05/website/refs/heads/main/content/posts/images/Screenshot%202025-07-05%20235221.png)
+![The tab](https://raw.githubusercontent.com/slvignesh05/website/refs/heads/main/content/posts/images/Screenshot%202025-07-05%20235221.png)
 
 Here the attacker can place the victim's cookie(stole from xss) in place of his to succesfully take over the account or to access sensitive information of the victim.
 
