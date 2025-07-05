@@ -21,7 +21,7 @@ Yes this is known as cross site scripting. The attacker scripts the code from th
 3. Name field  
 4. Or any other parameter  
 
-![Search field example](images/xss-i.png)
+![Search field example](https://github.com/slvignesh05/website/blob/main/content/posts/images/xss-i.png?raw=true)
 
 ## Example of cross site scripting
 
