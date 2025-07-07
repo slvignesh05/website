@@ -6,6 +6,6 @@ theme = 'paper'
 [params]
   color = 'linen'
   name = 'S.Lakshmi Vignesh'
-  bio = 'A Cybersecurity & Data Science student who likes to break web applications and look into authentication bugs apart from that I like to build random intriguing web apps'
+  bio = 'A Cybersecurity & Data Science student who likes to break web applications and look into authentication bugs apart from that I like to build random intriguing web apps,read manga,Security articles and play chess'
   github = 'slvignesh05'
   rss = true
